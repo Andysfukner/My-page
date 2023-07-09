@@ -115,15 +115,6 @@ main div {
     display: flex;
 }
 
-#alphatauriimg {
-    display: flex;
-    height: 196.6px;
-    width: 250px;
-    margin-right: 30px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
-    border-radius: 10px;
-}
-
 aside {
     margin-top: 20px;
     margin-left: 0px;
