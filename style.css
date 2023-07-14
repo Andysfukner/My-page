@@ -65,6 +65,7 @@ nav {
     display: flex;
     background-color: #4C6579;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+    padding-left: 20px;
 }
 
 nav > a {
@@ -86,6 +87,7 @@ main {
 }
 
 main article {
+    
     background-color: white;
     max-width: 900px;
     padding: 15px;
@@ -176,13 +178,14 @@ table a {
     align-items: center;
     padding: 10px;
     margin-top: 10px;
-    width: 100%;
+    margin: auto;
 }
 
 .container__projetos__item {
     display: flex;
-    width: 100%;
-    margin: 10px;
+    margin-top: 10px;
+    background-color: var(--color0);
+    box-shadow: 1px 1px 3px #cfd9dd; 
 }
 
 .container__projetos__item a{
@@ -192,7 +195,8 @@ table a {
 
 .descricao {
     flex-direction: column;
-    padding-top: 10px;
+    margin: 15px;
+    box-shadow: none;
 }
 
 .container__projetos p {
