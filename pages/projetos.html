@@ -1,113 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projetos</title>
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-  <body>
-    <header>
-      <picture id="tardis05">
-        <a href="../index.html"
-          ><img src="../images/Tardis_05.png" alt="Tardis"
-        /></a>
-      </picture>
-      <h1>Anderson Sill Fukner</h1>
-    </header>
-    <nav>
-      <a href="./sobre.html">Sobre Mim</a>
-      <a href="sobrepagina.html">Sobre a página</a>
-      <a href="./hobbies.html">Hobbies</a>
-      <a href="#">Projetos</a>
-      <a href="./curriculo.html">Profissional</a>
-    </nav>
 
-    <main>
-      <article>
-        <h1>Meus Projetos</h1>
-        <p>
-          Aqui tenho alguns pequenos projetos que criei para me ajudar no
-          trabalho ou para praticar
-        </p>
-        <p>
-          Clique sobre a imagem para abrir o repositório do
-          <strong style="text-indent: 5px">GitHub</strong>
-        </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projetos</title>
+  <link rel="stylesheet" href="../style.css" />
 
-        <table>
-          <tr>
-            <td>
-              <a
-                href="https://github.com/Andysfukner/Correcting-tests"
-                target="_blank"
-                ><img
-                  src="../images/testesInflux-pq.png"
-                  alt="corretor de testes"
-              /></a>
-            </td>
-            <td>
-              <h3 class="pythonfile"> <img src="../images/Python-logo-mini.png" alt="python logo"> Corretor de Provas</h3>
+</head>
+
+<body>
+  <iframe src="header.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
+  <nav>
+    <a href="../index.html" class="menu_child">Inicio</a>
+    <a href="sobre.html" class="menu_child">Sobre Mim</a>
+    <a href="sobrepagina.html" class="menu_child">Sobre a página</a>
+    <a href="hobbies.html" class="menu_child">Hobbies</a>
+    <a href="projetos.html" class="menu_child">Projetos</a>
+    <a href="curriculo.html" class="menu_child">Profissional</a>
+ </nav>
+  <main>
+    <article>
+      <h1>Meus Projetos</h1>
+      <p>
+        Aqui tenho alguns pequenos projetos que criei para me ajudar no
+        trabalho ou para praticar
+      </p>
+      <p>
+        Clique sobre a imagem para abrir o repositório do
+        <strong style="text-indent: 5px">GitHub</strong>
+      </p>
+
+      <section class="container__projetos" width="100%">
+        <div class="container__projetos__item">
+          <a href="https://github.com/Andysfukner/Correcting-tests" target="_blank">
+            <picture>
+              <source media="(max-width: 560px)" srcset="../images/testesInflux-mobile.png">
+              <img src="../images/testesInflux-pq.png" alt="corretor de testes" />
+            </picture>
+          </a>
+          <div class="container__projetos__item descricao">
+            <h3 class="pythonfile">
+              Corretor de Provas
+            </h3>
+            <p>
               Aqui está um código em Python para ajudar na correção das provas
               dos meus alunos de inglês. É um código simples para calcular a
               nota de acordo com o número de erros que o aluno cometeu em cada
               parte da prova junto com a nota da redação
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a
-                href="https://github.com/Andysfukner/Influx-Activities"
-                target="_blank"
-                ><img
-                  src="../images/influx-activities-pq.png"
-                  alt="páginas influx"
-              /></a>
-            </td>
-            <td>
-              <h3>Páginas Influx</h3>
+            </p>
+          </div>
+        </div>
+        <div class="container__projetos__item">
+          <a href="https://github.com/Andysfukner/Influx-Activities" target="_blank"><img
+              src="../images/influx-activities-pq.png" alt="Páginas Influx" /></a>
+
+          <div class="container__projetos__item descricao">
+            <h3>Páginas Influx</h3>
+            <p>
               Aqui temos algumas páginas em HTML, CSS E JavaScript que também
               utilizei para ajudar no meu trabalho. Porém aqui algumas outras
               funções foram adicionadas como correção da redação, lista do que
-              fazer nas aulas comunicativas e que materias preciso levar para a
-              aula semi-vip de acordo com cada aula e livro.
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a
-                href="https://github.com/Andysfukner/Jogo-da-Velha"
-                target="_blank"
-                ><img src="../images/jogo-da-velha-pq.png" alt="Jogo da velha"
-              /></a>
-            </td>
-            <td>
-              <h3>Jogo da velha</h3>
-              Jogo da velha feito em JavaScript, HTML e CSS
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a
-                href="https://github.com/Andysfukner/projeto-android"
-                target="_blank"
-                ><img src="../images/androidpage-pq.png" alt="página android"
-              /></a>
-            </td>
-            <td>
-              <h3>Página Android</h3>
-              Este é um projeto do Curso em vídeo em que fizemos uma página web
-              usando HTML e CSS puros sobre a história do Android. <br />
-              A página pode ser acessada
-              <a
-                href="https://andysfukner.github.io/projeto-android/"
-                target="_blank"
-                >Aqui.</a
-              >
-            </td>
-          </tr>
-        </table>
-      </article>
-    </main>
-  </body>
+              fazer nas aulas comunicativas e que materias preciso levar para
+              a aula semi-vip de acordo com cada aula e livro.
+            </p>
+          </div>
+        </div>
+        <div class="container__projetos__item">
+          <a href="https://github.com/Andysfukner/Jogo-da-Velha" target="_blank">
+            <img src="../images/jogo-da-velha-pq.png" alt="Jogo da Velha"></a>
+          <div class="container__projetos__item descricao">
+            <h3>Jogo da velha</h3>
+            <p>Jogo da velha feito em JavaScript, HTML e CSS</p>
+         </div>
+        </div>
+        <div class="container__projetos__item">
+          <a href="https://github.com/Andysfukner/projeto-android" target="_blank">
+            <img src="../images/androidpage-pq.png" alt="Página Android"></a>
+          <div class="container__projetos__item descricao">
+            <h3>Página Android</h3>
+            <p>JEste é um projeto do Curso em vídeo em que fizemos uma página web usando HTML e CSS puros sobre a história do Android. <br/></p>
+              <p>A página pode ser acessada <a class="a__neutro"
+              href="https://andysfukner.github.io/projeto-android/"
+              target="_blank"
+              >aqui.</a>
+            </p>
+         </div>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+
 </html>
