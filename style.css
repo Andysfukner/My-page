@@ -26,6 +26,12 @@ a {
     text-decoration: none;
 }
 
+abbr {
+    height: 1em;
+    width: auto;
+    display: inline;
+}
+
 body {
     background-color: var(--color1);
     display: flex;
@@ -63,7 +69,7 @@ iframe header{
 
 nav {
     display: flex;
-    background-color: #4C6579;
+    background-color: var(--color2);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
     padding-left: 20px;
 }
@@ -215,6 +221,15 @@ table a {
     color: #F1F3F4;
     margin: 0;
 }
+
+
+#js-click {
+    background-color: var(--color1);
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 
 @media (max-width: 560px) {
     nav {
