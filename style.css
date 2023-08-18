@@ -230,6 +230,98 @@ table a {
     font-weight: bold;
 }
 
+.prateleiras {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+
+.prateleira {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    border: 5px solid saddlebrown;
+    align-items: center;
+    gap: 5px;
+}
+
+.prateleira2 {
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    width: 600px;
+    height: 200px;
+    border: 5px solid saddlebrown;
+    align-items: flex-end;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+
+
+.livros {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.774) );
+    display: flex;
+    border-radius: 2px;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+    rotate: 270deg;
+    margin-left: -60px;
+    margin-right: -87px;
+    margin-bottom: -10px;
+}
+
+.livros2 {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left rgba(0, 0, 0, 0.76),rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.774) );
+    height: 180px;
+    font-size: 0.8em;
+    align-items: center;
+    background-color: green;
+}
+
+.livros2 > h3 {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: green;
+}
+
+.livros2 > p {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+.livros > p {
+    display: flex;
+    width: 140px;
+    text-indent: 0;
+    font-weight: bolder;
+    padding: 0;
+}
+
+.machado {
+    background-color: rgb(2, 168, 2);
+}
+
+.graciliano {
+    background-color: rgb(173, 0, 173);
+}
+
+.itamar {
+    background-color: rgb(255, 102, 0);
+}
+
+.jose {
+    background-color: aqua;
+}
+
+.cruz {
+    background-color: #F1F3F4;
+}
 
 @media (max-width: 560px) {
     nav {
