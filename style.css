@@ -155,6 +155,10 @@ aside p {
     padding: 20px;
 }
 
+audio {
+    padding-left: 60px;
+}
+
 /*table {
     margin-top: 10px;
 }
