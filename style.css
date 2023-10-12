@@ -159,30 +159,6 @@ audio {
     padding-left: 60px;
 }
 
-/*table {
-    margin-top: 10px;
-}
-
-tr {
-    background-color: var(--color0);
-}
-
-td {
-    border: 1px solid var(--color1);
-    padding: 5px;
-}
-
-table h3 {
-    color: var(--color4);
-    margin-bottom: 10px;
-}
-
-table a {
-    text-decoration: none;
-    color: var(--color3);
-    font-weight: bold;
-}
-*/
 
 
 .container__projetos {
@@ -365,5 +341,10 @@ table a {
         font-family: Arial, Helvetica, sans-serif;
         color: var(--color2);
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
+    }
+
+    audio {
+        display: flex;
+        padding-left: 50px;
     }
 }
